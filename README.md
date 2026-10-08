@@ -68,6 +68,11 @@ flowchart TD
     control -->|"Ansible over SSH"| lb
 ```
 
+
+
+
+
+
 The load-balancer server is another Ansible-managed target. It is not downstream of the database or NFS server in the configuration-management path.
 
 ### Component Responsibilities
